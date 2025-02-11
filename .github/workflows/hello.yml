@@ -18,4 +18,11 @@ jobs:
     steps:
       - name: List files
         run: |
-          ls .
+          ls
+
+  print_date_job:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Print Date
+        run: |
+          date
